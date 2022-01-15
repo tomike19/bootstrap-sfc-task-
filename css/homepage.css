@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* Navbar styles */
+.body {
+ font-family: 'Poppins', sans-serif;
+}
+
+.default-layout__inner {
+  box-shadow: 0px 10px 20px rgba(36, 0, 70, 0.05);
+  padding: 2rem 0 2rem 0;
+  margin: auto;
+}
+
+.container {
+  margin-left: 0px;
+}
+.navbar-logo {
+ font-family: 'Poppins', sans-serif;
+ font-weight:600;
+  height: 30px;
+  font-size: 30px;
+  color: #0c1e7f;
+}
+
+.navigation {
+  display: none;
+  width: 75%;
+}
+.list-item {
+ font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: #0c1e7f;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+}
+
+.hero-page {
+  height: calc(100vh - 50px);
+  /* height: 100vh; */
+  background-image: linear-gradient(rgba(3, 1, 18, 0.71), rgba(3, 1, 18, 0.71)),
+    url("../image/heroimage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-section {
+  /* width: 100%; */
+  margin: 13rem auto;
+}
+
+.hero-section-text {
+ font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 1.9rem;
+}
+
+.hero-section-header {
+ /* font-family: 'Poppins', sans-serif; */
+ font-weight: 600;
+  font-size: 4vw;
+  color: white;
+  margin-bottom: 1.9rem;
+}
+
+.add-property-button {
+ font-family: 'Poppins', sans-serif;
+  width: 15rem;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff9f9;
+  margin-left: 5px;
+  color: #0c1e7f;
+  font-size:1.2rem;
+  font-weight: 600;
+}
+
+.container > a{
+  text-decoration: none;
+}
+
+.form-property{
+  width: 90%;
+  margin:4rem auto !important ;
+  outline: none;
+}
+.add-property-box .input-file>label,
+.information-text>label {
+  color: #0c1e7f;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-transform: capitalize;
+ font-family: 'Poppins', sans-serif;
+}
+input {
+    background: #eceff8;
+    border: 2px solid #eceff8;
+    height: 45px;
+    box-shadow: none;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #626262;
+    width: 100%;
+}
+
+
+.information-title > h5{
+  font-size:1.7rem;
+  color: #0c1e7f;
+
+}
+.details-information-box .input-file,
+.basic-information-form .input-file {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.add-property-page{
+  margin-top: 40px;
+}
+
+select {
+    width: 100%;
+    background: #eceff8;
+    border: 2px solid #eceff8;
+    height: 45px;
+    padding-left: 10px;
+    box-shadow: none;
+    font-size: 14px;
+    color: #626262;
+}
+option {
+    background: #fff;
+    border: 0px solid #626262;
+    padding-left: 10px;
+    font-size: 14px;
+}
+input:focus {
+    background: transparent;
+    border: 2px solid #0c1e7f;
+
+}
+textarea {
+    resize: vertical;
+    background: #eceff8;
+    border: 2px solid #eceff8;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    height: 200px;
+}
+textarea:focus {
+    background: transparent;
+    border: 2px solid  #0c1e7f;
+;
+    outline: none;
+}
+.image-upload-box .custom-file-upload {
+  background: #0c1e7f none repeat scroll 0 0;
+  color: #ffffff;
+  height: 45px;
+  line-height: 43px;
+  margin: 0;
+  width: 187px;
+  cursor: pointer;
+}
+
+.image-upload-box .custom-file-upload span i {
+  font-size: 18px;
+  margin-right: 3px;
+
+}
+
+.image-upload-box{
+  background: #fcfcfe none repeat scroll 0 0;
+  border: 1px solid #dbdbdb;
+  display: block;
+  padding: 25px 0;
+  text-align: center;
+}
+.custom-file-upload>input[type="file"] {
+  display: none;
+}
+.add-property-submit>button {
+  background: #0c1e7f  none repeat scroll 0 0;
+  border: medium none;
+  color: #ffffff;
+  font-weight: 400;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 33px;
+ font-family: 'Poppins', sans-serif;
+
+}
+.add-property-submit {
+  margin-top: 65px;
+  text-align: right;
+  margin-bottom: 3rem;
+ font-family: 'Poppins', sans-serif;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
