@@ -51,13 +51,13 @@
 
         <!-- Property Information -->
         <div class="add-property-page pt-600">
-            <form action="#" class="form">
+            <form action="#" class="form" name="information" method="post">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
                             <div class="add-property-box step-1">
                                 <div class="basic-information-box">
-                                     <div class="information-title">
+                                    <div class="information-title">
                                         <h5>Add Property Information</h5>
                                     </div>
                                     <div class="basic-information-form">
@@ -68,7 +68,10 @@
                                                     <label>Property address</label>
                                                     <input
                                                         type="text"
-                                                        placeholder="Enter your title here"
+                                                        placeholder="Enter your
+                                                        title here"
+                                                        class="property_address"
+                                                        name="propertyadress"
                                                         />
                                                 </div>
                                             </div>
@@ -79,7 +82,8 @@
                                                         class="selectpicker"
                                                         title="Property type"
                                                         data-hide-disabled="true">
-                                                        <option selected>Property type</option>
+                                                        <option selected>Property
+                                                            type</option>
                                                         <option>Property type 1</option>
                                                         <option>Property type 2</option>
                                                         <option>Property type 3</option>
@@ -93,9 +97,11 @@
                                                     <label>Number of Bathroom</label>
                                                     <select
                                                         class="selectpicker"
-                                                        title="Number of Bathroom"
+                                                        title="Number of
+                                                        Bathroom"
                                                         data-hide-disabled="true">
-                                                        <option selected>Number of Bathroom</option>
+                                                        <option selected>Number
+                                                            of Bathroom</option>
                                                         <option>1 Bathroom</option>
                                                         <option>2 Bathroom</option>
                                                         <option>3 Bathroom</option>
@@ -109,9 +115,11 @@
                                                     <label>Number of Kitchen</label>
                                                     <select
                                                         class="selectpicker"
-                                                        title="Number of Kitchen"
+                                                        title="Number of
+                                                        Kitchen"
                                                         data-hide-disabled="true">
-                                                        <option selected>Number of Kitchen</option>
+                                                        <option selected>Number
+                                                            of Kitchen</option>
                                                         <option>1Kitchen</option>
                                                         <option>2Kitchen</option>
                                                         <option>3Kitchen</option>
@@ -127,7 +135,8 @@
                                                         class="selectpicker"
                                                         title="Number of Toilet"
                                                         data-hide-disabled="true">
-                                                        <option selected>Number of Toilet</option>
+                                                        <option selected>Number
+                                                            of Toilet</option>
                                                         <option>1 Toilet</option>
                                                         <option>2 Toilet</option>
                                                         <option>3 Toilet</option>
@@ -141,9 +150,11 @@
                                                     <label>Number of Sittingroom</label>
                                                     <select
                                                         class="selectpicker"
-                                                        title="Number of Sittingroom"
+                                                        title="Number of
+                                                        Sittingroom"
                                                         data-hide-disabled="true">
-                                                        <option selected>Number of Sittingroom</option>
+                                                        <option selected>Number
+                                                            of Sittingroom</option>
                                                         <option>1 Sittingrom</option>
                                                         <option>2 Sittingrom</option>
                                                         <option>3 Sittingrom</option>
@@ -158,7 +169,9 @@
                                                     <label>Property Owner</label>
                                                     <input
                                                         type="text"
-                                                        placeholder="Property Owner"
+                                                        placeholder="Property
+                                                        Owner"
+                                                        class="property_owner"
                                                         />
                                                 </div>
                                             </div>
@@ -186,7 +199,8 @@
                                                 <div class="information-text">
                                                     <label>Description</label>
                                                     <textarea
-                                                        placeholder="Write here"></textarea>
+                                                        placeholder="Write
+                                                        here"></textarea>
                                                 </div>
                                             </div>
                                             <div class="add-property-box
@@ -213,7 +227,8 @@
                             </div>
 
                             <div class="add-property-submit">
-                                <button type="submit" class="submitBtn">ADD PROPERTY</button>
+                                <button type="submit" class="submitBtn">ADD
+                                    PROPERTY</button>
                             </div>
                         </div>
                     </div>
@@ -221,10 +236,15 @@
             </form>
         </div>
     </body>
+
+    <script
+        src=https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js></script>
+   
     <script>$(document).ready(function(){
+
     $(".submitBtn").click(function(){        
         $(".form").submit(); // Submit the form
     });
 });</script>
-<script src="./js/index.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
 </html>
