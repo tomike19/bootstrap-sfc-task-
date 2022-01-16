@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
 
 /* Navbar styles */
 .body {
- font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .default-layout__inner {
@@ -15,8 +15,8 @@
   margin-left: 0px;
 }
 .navbar-logo {
- font-family: 'Poppins', sans-serif;
- font-weight:600;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   height: 30px;
   font-size: 30px;
   color: #0c1e7f;
@@ -27,7 +27,7 @@
   width: 75%;
 }
 .list-item {
- font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   color: #0c1e7f;
   margin: 0;
@@ -51,22 +51,22 @@
 }
 
 .hero-section-text {
- font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   color: white;
   margin-bottom: 1.9rem;
 }
 
 .hero-section-header {
- /* font-family: 'Poppins', sans-serif; */
- font-weight: 600;
+  /* font-family: 'Poppins', sans-serif; */
+  font-weight: 600;
   font-size: 4vw;
   color: white;
   margin-bottom: 1.9rem;
 }
 
 .add-property-button {
- font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   width: 15rem;
   padding: 15px 20px;
   border: none;
@@ -74,43 +74,41 @@
   background-color: #fff9f9;
   margin-left: 5px;
   color: #0c1e7f;
-  font-size:1.2rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
-.container > a{
+.container > a {
   text-decoration: none;
 }
 
-.form-property{
+.form-property {
   width: 90%;
-  margin:4rem auto !important ;
+  margin: 4rem auto !important ;
   outline: none;
 }
-.add-property-box .input-file>label,
-.information-text>label {
+.add-property-box .input-file > label,
+.information-text > label {
   color: #0c1e7f;
   margin-bottom: 10px;
   font-weight: 600;
   text-transform: capitalize;
- font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 input {
-    background: #eceff8;
-    border: 2px solid #eceff8;
-    height: 45px;
-    box-shadow: none;
-    padding-left: 10px;
-    font-size: 14px;
-    color: #626262;
-    width: 100%;
+  background: #eceff8;
+  border: 2px solid #eceff8;
+  height: 45px;
+  box-shadow: none;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #626262;
+  width: 100%;
 }
 
-
-.information-title > h5{
-  font-size:1.7rem;
+.information-title > h5 {
+  font-size: 1.7rem;
   color: #0c1e7f;
-
 }
 .details-information-box .input-file,
 .basic-information-form .input-file {
@@ -118,45 +116,43 @@ input {
   margin-bottom: 30px;
 }
 
-.add-property-page{
+.add-property-page {
   margin-top: 40px;
 }
 
 select {
-    width: 100%;
-    background: #eceff8;
-    border: 2px solid #eceff8;
-    height: 45px;
-    padding-left: 10px;
-    box-shadow: none;
-    font-size: 14px;
-    color: #626262;
+  width: 100%;
+  background: #eceff8;
+  border: 2px solid #eceff8;
+  height: 45px;
+  padding-left: 10px;
+  box-shadow: none;
+  font-size: 14px;
+  color: #626262;
 }
 option {
-    background: #fff;
-    border: 0px solid #626262;
-    padding-left: 10px;
-    font-size: 14px;
+  background: #fff;
+  border: 0px solid #626262;
+  padding-left: 10px;
+  font-size: 14px;
 }
 input:focus {
-    background: transparent;
-    border: 2px solid #0c1e7f;
-
+  background: transparent;
+  border: 2px solid #0c1e7f;
 }
 textarea {
-    resize: vertical;
-    background: #eceff8;
-    border: 2px solid #eceff8;
-    padding: 10px;
-    width: 100%;
-    font-size: 14px;
-    height: 200px;
+  resize: vertical;
+  background: #eceff8;
+  border: 2px solid #eceff8;
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
+  height: 200px;
 }
 textarea:focus {
-    background: transparent;
-    border: 2px solid  #0c1e7f;
-;
-    outline: none;
+  background: transparent;
+  border: 2px solid #0c1e7f;
+  outline: none;
 }
 .image-upload-box .custom-file-upload {
   background: #0c1e7f none repeat scroll 0 0;
@@ -171,48 +167,46 @@ textarea:focus {
 .image-upload-box .custom-file-upload span i {
   font-size: 18px;
   margin-right: 3px;
-
 }
 
-.image-upload-box{
+.image-upload-box {
   background: #fcfcfe none repeat scroll 0 0;
   border: 1px solid #dbdbdb;
   display: block;
   padding: 25px 0;
   text-align: center;
 }
-.custom-file-upload>input[type="file"] {
+.custom-file-upload > input[type="file"] {
   display: none;
 }
-.add-property-submit>button {
-  background: #0c1e7f  none repeat scroll 0 0;
+.add-property-submit > button {
+  background: #0c1e7f none repeat scroll 0 0;
   border: medium none;
   color: #ffffff;
   font-weight: 400;
   height: 45px;
   line-height: 45px;
   padding: 0 33px;
- font-family: 'Poppins', sans-serif;
-
+  font-family: "Poppins", sans-serif;
 }
 .add-property-submit {
   margin-top: 65px;
   text-align: right;
   margin-bottom: 3rem;
- font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
-    background: transparent;
-    bottom: 0;
-    color: transparent;
-    cursor: pointer;
-    height: auto;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: auto;
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
 }
 
 /* view property styles*/
@@ -221,45 +215,67 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 } */
 
 .search {
-    position: relative;
-    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+  position: relative;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
 }
 
 .search input {
-    height: 50px;
-    text-indent: 25px;
-    border: 2px solid #d6d4d4
+  height: 50px;
+  text-indent: 25px;
+  border: 2px solid #d6d4d4;
 }
 
 .search input:focus {
-    box-shadow: none;
-    border: 2px solid blue
+  box-shadow: none;
+  border: 2px solid blue;
 }
 
 .search .fa-search {
-    position: absolute;
-    top: 20px;
-    left: 16px
+  position: absolute;
+  top: 20px;
+  left: 16px;
 }
 
 .search button {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    height: 50px;
-    width: 110px;
-    background: blue
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 50px;
+  width: 110px;
+  background: blue;
 }
-.view-property-page{
+.view-property-page {
   width: 90%;
-  margin: auto;
+  margin: 9rem auto;
 }
 
-/* .card{
+
+
+.card{
 max-width: 1170px;
 height: 100%;
 }
 
 .card-img-top{
   height: 60%;
-} */
+  width: 60%;
+}
+.card-body{
+  background-color: #0c1e7f;
+  color: white;
+}
+
+.proper-list-header{
+  background-color: #f00;
+  animation: animationname 2s linear infinite;
+  /*animation: animation-name animation-duration animation-direction animation-iteration-count */  
+  transition: .5s ease-in-out;
+}
+@keyframes animationname{
+  0%{
+    transform: translateX(10px);
+  }
+  100%{
+    transform: translateX(-10px);
+  }
+}
