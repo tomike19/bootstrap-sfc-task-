@@ -214,36 +214,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 100vh
 } */
 
-.search {
-  position: relative;
-  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
-}
-
-.search input {
-  height: 50px;
-  text-indent: 25px;
-  border: 2px solid #d6d4d4;
-}
-
-.search input:focus {
-  box-shadow: none;
-  border: 2px solid blue;
-}
-
-.search .fa-search {
-  position: absolute;
-  top: 20px;
-  left: 16px;
-}
-
-.search button {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  height: 50px;
-  width: 110px;
-  background: blue;
-}
 .view-property-page {
   width: 90%;
   margin: 9rem auto;
@@ -266,7 +236,7 @@ height: 100%;
 }
 
 .property-input{
-  width: 80% !important;
+  width: 50% !important;
   margin-top: 70px;
   /* border: 2px solid #eceff8;
   box-shadow: 1px 1px 3px #333333;
@@ -280,7 +250,7 @@ height: 100%;
 
 .property-input-section{
 
-  width: 50%;
+  width: 90%;
   margin: auto;
 }
 .property-list-header{
@@ -290,6 +260,8 @@ height: 100%;
 }
 
 .property-form-input{
+  grid-column-gap: 2rem;
+  /* display: flex; */
 width:90%;
 margin:auto;
 }
@@ -298,11 +270,8 @@ margin:auto;
   padding-top: 90px;
   font-size: 3rem;
 }
-.filter-button{
-  width: 80vw;
-  margin-top: 50px;
-      cursor: pointer;
-        height: 50px;
-        width: 200px;
+.property-select{
+        width: 50% !important;
+        margin-top: 70px;
 
 }

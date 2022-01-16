@@ -56,16 +56,19 @@
                 <h1 class="text-center">PROPERTIES</h1>
             </div>
         </div>
-        <div class="property-form-input" >
-            <form>
-                <div class="justify-content-center property-inner
-                    text-center">
-                    <input class="form-control property-input ms-2"
-                        type="search"
-                        placeholder="Search" aria-label="Search">
-                </div>
-            </div>
-        </form>
+        <div class="property-form-input d-flex">
+            <input class="form-control property-input ms-2"
+                type="search"
+                placeholder="Search by Property" aria-label="Search">
+
+            <select class="form-select property-select" aria-label="Default
+                select example">
+                <option selected>Filter by</option>
+                <option value="1">Kitchen</option>
+                <option value="2">Bathroom</option>
+                <option value="3">SittingRoom</option>
+            </select>
+        </div>
         <div class="view-property-page">
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
