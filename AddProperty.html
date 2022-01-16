@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/homepage.css" />
+        <link rel="stylesheet" href="./css/styles.css" />
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
@@ -43,7 +43,8 @@
                     <ul class="navbar-nav d-flex justify-content-end mt-2
                         mb-lg-0">
                         <li class="list-item m-2">ABOUT</li>
-                        <a href="/view-property.html"class="property-page-link">
+                        <a href="/view-property.html"
+                            class="property-page-link">
                             <li class="list-item m-2">PROPERTY PAGE</li>
                         </a>
                     </ul>
@@ -67,24 +68,24 @@
                                             <div class="col-lg-6 col-md-5
                                                 col-12">
                                                 <div class="input-file">
-                                                    <label>Property address</label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Enter your title here"
-                                                        class="property_address"
-                                                        name="propertyadress"
-                                                        />
+                                                    <label
+                                                        for="address"
+                                                        class="">Property
+                                                        Address</label>
+                                                    <input type="email"
+                                                        class="form-control"
+                                                        id="address"
+                                                        name='address'>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <div class="input-file">
                                                     <label>Property type</label>
-                                                    <select
-                                                        class="selectpicker"
-                                                        title="Property type"
-                                                        data-hide-disabled="true">
+                                                    <select class="form-select"
+                                                        aria-label="Default
+                                                        select example">
                                                         <option selected>Property
-                                                            type</option>
+                                                            Type</option>
                                                         <option>Property type 1</option>
                                                         <option>Property type 2</option>
                                                         <option>Property type 3</option>
@@ -96,36 +97,32 @@
                                             <div class="col-md-6 col-12">
                                                 <div class="input-file">
                                                     <label>Number of Bathroom</label>
-                                                    <select
-                                                        class="selectpicker"
-                                                        title="Number of
-                                                        Bathroom"
-                                                        data-hide-disabled="true">
+                                                    <select class="form-select"
+                                                        aria-label="Default
+                                                        select example">
                                                         <option selected>Number
                                                             of Bathroom</option>
-                                                        <option>1 Bathroom</option>
-                                                        <option>2 Bathroom</option>
-                                                        <option>3 Bathroom</option>
-                                                        <option>4 Bathroom</option>
-                                                        <option>5 Bathroom</option>
+                                                        <option> Bathroom 1</option>
+                                                        <option> Bathroom 2</option>
+                                                        <option> Bathroom 3</option>
+                                                        <option> Bathroom 4</option>
+                                                        <option> Bathroom 5</option>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <div class="input-file">
                                                     <label>Number of Kitchen</label>
-                                                    <select
-                                                        class="selectpicker"
-                                                        title="Number of
-                                                        Kitchen"
-                                                        data-hide-disabled="true">
+                                                    <select class="form-select"
+                                                        aria-label="Default
+                                                        select example">
                                                         <option selected>Number
                                                             of Kitchen</option>
-                                                        <option>1Kitchen</option>
-                                                        <option>2Kitchen</option>
-                                                        <option>3Kitchen</option>
-                                                        <option>4Kitchen</option>
-                                                        <option>5Kitchen</option>
+                                                        <option>Kitchen 1</option>
+                                                        <option>Kitchen 2</option>
+                                                        <option>Kitchen 3</option>
+                                                        <option>Kitchen 4</option>
+                                                        <option>Kitchen 5</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -133,7 +130,7 @@
                                                 <div class="input-file">
                                                     <label>Number of Toilet</label>
                                                     <select
-                                                        class="selectpicker"
+                                                        class="form-select"
                                                         title="Number of Toilet"
                                                         data-hide-disabled="true">
                                                         <option selected>Number
@@ -148,32 +145,36 @@
                                             </div>
                                             <div class="col-md-6 col-12">
                                                 <div class="input-file">
-                                                    <label>Number of Sittingroom</label>
+                                                    <label>Number of Sitting
+                                                        Room</label>
                                                     <select
-                                                        class="selectpicker"
+                                                        class="form-select"
                                                         title="Number of
-                                                        Sittingroom"
+                                                        Sitting Room"
                                                         data-hide-disabled="true">
                                                         <option selected>Number
-                                                            of Sittingroom</option>
-                                                        <option>1 Sittingrom</option>
-                                                        <option>2 Sittingrom</option>
-                                                        <option>3 Sittingrom</option>
-                                                        <option>4 Sittingrom</option>
-                                                        <option>5 Sittingrom</option>
+                                                            of Sitting Room</option>
+                                                        <option>1 Sitting Room</option>
+                                                        <option>2 Sitting Room</option>
+                                                        <option>3 Sitting Room</option>
+                                                        <option>4 Sitting Room</option>
+                                                        <option>5 Sitting Room</option>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 col-md-5
                                                 col-12">
                                                 <div class="input-file">
-                                                    <label>Property Owner</label>
-                                                    <input
-                                                        type="text"
-                                                        placeholder="Property
-                                                        Owner"
-                                                        class="property_owner"
-                                                        />
+                                                    <div class="mb-3 input-file">
+                                                        <label
+                                                            for="owner"
+                                                            class="form-label">Property
+                                                            Owner</label>
+                                                        <input type="text"
+                                                            class="form-control"
+                                                            id="owner"
+                                                            name="owner">
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -182,6 +183,8 @@
                                                 <div class="input-file">
                                                     <label>Valid From</label>
                                                     <input
+
+                                                        class="form-control"
                                                         type="date"
                                                         placeholder="dd-mm-yyyy"
                                                         />
@@ -192,34 +195,36 @@
                                                 <div class="input-file">
                                                     <label>Valid to</label>
                                                     <input type="date"
+                                                        class="form-control"
                                                         placeholder="dd-mm-yyyy"
                                                         />
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-12">
-                                                <div class="information-text">
-                                                    <label>Description</label>
+
+                                                <div class="form-floating">
                                                     <textarea
-                                                        placeholder="Write here"></textarea>
+                                                        class="form-control
+                                                        mb-5"
+                                                        placeholder="Leave a
+                                                        comment here"
+                                                        id="floatingTextarea"></textarea>
+                                                    <label
+                                                        for="floatingTextarea">Description</label>
                                                 </div>
                                             </div>
                                             <div class="add-property-box
-                                                step-3">
-                                                <div class="image-upload-inner">
-                                                    <div
-                                                        class="image-upload-box">
-                                                        <label
-                                                            class="custom-file-upload">
-                                                            <span>
-                                                                <i class="bi
-                                                                    bi-cloud-arrow-up"></i>
-                                                                Browse Images
-                                                            </span>
-                                                            <input type="file"
-                                                                />
-                                                        </label>
-                                                    </div>
+                                                step-3 input-file">
+                                                <div class="input-file">
+                                                    <label for=""
+                                                        class="">Upload
+                                                        Property Images</label>
+                                                    <input class="form-control
+                                                        form-control-lg"
+                                                        id="formFileLg"
+                                                        type="file">
                                                 </div>
+
                                             </div>
                                         </div>
                                     </div>

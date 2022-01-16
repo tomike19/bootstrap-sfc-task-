@@ -12,9 +12,6 @@
   margin: auto;
 }
 
-.container {
-  margin-left: 0px;
-}
 .navbar-logo {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -29,17 +26,15 @@
 }
 .list-item {
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
+
   color: #0c1e7f;
-  margin: 0;
-  padding: 0;
   list-style: none;
   cursor: pointer;
 }
 
 .hero-page {
   height: calc(100vh - 50px);
-  /* height: 100vh; */
   background-image: linear-gradient(rgba(3, 1, 18, 0.71), rgba(3, 1, 18, 0.71)),
     url("../image/heroimage.jpg");
   background-position: center;
@@ -47,7 +42,6 @@
   background-size: cover;
 }
 .hero-section {
-  /* width: 100%; */
   margin: 13rem auto;
 }
 
@@ -59,12 +53,13 @@
 }
 
 .hero-section-header {
-  /* font-family: 'Poppins', sans-serif; */
   font-weight: 600;
   font-size: 4vw;
   color: white;
   margin-bottom: 1.9rem;
 }
+
+/* add-property-styles */
 
 .add-property-button {
   font-family: "Poppins", sans-serif;
@@ -83,11 +78,6 @@
   text-decoration: none;
 }
 
-/* .form-property {
-  width: 90%;
-  margin: 4rem auto !important ;
-  outline: none;
-} */
 .add-property-box .input-file > label,
 .information-text > label {
   color: #0c1e7f;
@@ -131,30 +121,22 @@ select {
   font-size: 14px;
   color: #626262;
 }
+
+/* select:focus-visible {
+  border: none;
+  outline: none;
+} */
 option {
   background: #fff;
   border: 0px solid #626262;
   padding-left: 10px;
   font-size: 14px;
 }
-input:focus {
-  background: transparent;
-  border: 2px solid #0c1e7f;
-}
-textarea {
-  resize: vertical;
-  background: #eceff8;
-  border: 2px solid #eceff8;
-  padding: 10px;
-  width: 100%;
-  font-size: 14px;
-  height: 200px;
-}
-textarea:focus {
-  background: transparent;
-  border: 2px solid #0c1e7f;
+/* input:focus {
+  border: none;
   outline: none;
-}
+} */
+
 .image-upload-box .custom-file-upload {
   background: #0c1e7f none repeat scroll 0 0;
   color: #ffffff;
@@ -191,9 +173,9 @@ textarea:focus {
   font-family: "Poppins", sans-serif;
 }
 
-.submitBtn{
+.submitBtn {
   background: #0c1e7f none repeat scroll 0 0;
-   border: medium none;
+  border: medium none;
   color: #ffffff;
   font-weight: 400;
   height: 45px;
@@ -208,7 +190,7 @@ textarea:focus {
   font-family: "Poppins", sans-serif;
 }
 
-.input:hover{
+.input:hover {
   box-shadow: none;
   border: none;
 }
@@ -227,7 +209,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .property-page-link {
   text-decoration: none;
 }
-
 
 .view-property-page {
   width: 90%;
@@ -256,10 +237,16 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .property-input {
-  width: 50% !important;
+  max-width: 50%;
   margin-top: 70px;
 }
 
+
+.form-control:focus {
+  border-color:none;
+  outline: none;
+  box-shadow: none;
+}
 .property-input-section {
   width: 90%;
   margin: auto;
@@ -281,21 +268,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-size: 3rem;
 }
 .property-select {
-  width: 50% !important;
+  max-width: 50%;
   margin-top: 70px;
-}
-
-.property-details {
-  display: flex;
-  justify-content: space-between;
 }
 
 .property-details-image {
   border-top: 1px solid #ffffff;
   overflow: hidden;
   padding: 18px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .property-button {
@@ -329,13 +309,12 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   margin-bottom: 1rem;
 }
 
-.single-property-section{
-background-color: #f5f9fd;
+.single-property-section {
+  background-color: #f5f9fd;
   padding-left: 3rem;
-
 }
-.single-property-condition > h6{
-font-size: 1.2rem;
+.single-property-condition > h6 {
+  font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 960px) {
