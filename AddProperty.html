@@ -43,7 +43,9 @@
                     <ul class="navbar-nav d-flex justify-content-end mt-2
                         mb-lg-0">
                         <li class="list-item m-2">ABOUT</li>
-                        <li class="list-item m-2">PROPERTY PAGE</li>
+                        <a href="/view-property.html"class="property-page-link">
+                            <li class="list-item m-2">PROPERTY PAGE</li>
+                        </a>
                     </ul>
                 </div>
             </div>
@@ -227,8 +229,11 @@
                             </div>
 
                             <div class="add-property-submit">
-                                <button type="submit" class="submitBtn">ADD
-                                    PROPERTY</button>
+                                <a href="/singlepage.html" class="submitBtn">
+                                    <button type="button" class="submitBtn">ADD
+                                        PROPERTY</button>
+                                </a>
+
                             </div>
                         </div>
                     </div>
@@ -239,12 +244,11 @@
 
     <script
         src=https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js></script>
-   
-    <script>$(document).ready(function(){
+    <!-- <script>$(document).ready(function(){
 
     $(".submitBtn").click(function(){        
         $(".form").submit(); // Submit the form
     });
-});</script>
+});</script> -->
     <!-- <script src="./js/index.js"></script> -->
 </html>

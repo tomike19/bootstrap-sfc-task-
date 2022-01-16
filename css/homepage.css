@@ -208,17 +208,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   top: 0;
   width: auto;
 }
+.property-page-link {
+  text-decoration: none;
+}
 
-/* view property styles*/
-/* .height {
-    height: 100vh
-} */
 
 .view-property-page {
   width: 90%;
   margin: 6rem auto;
 }
-
 
 .view-property-page > h1 {
   padding-bottom: 40px;
@@ -244,14 +242,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .property-input {
   width: 50% !important;
   margin-top: 70px;
-  /* border: 2px solid #eceff8;
-  box-shadow: 1px 1px 3px #333333;
-  height: 45px;
-  box-shadow: none;
-  padding-left: 10px;
-  font-size: 14px;
-  color: #626262;
-   text-align: center; */
 }
 
 .property-input-section {
@@ -283,19 +273,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .property-details {
   display: flex;
   justify-content: space-between;
-
-  
 }
-
 
 .property-details-image {
   border-top: 1px solid #ffffff;
   overflow: hidden;
   padding: 18px;
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
 }
-
 
 .property-button {
   width: 7vw;
@@ -308,39 +294,42 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   color: #fff;
 }
 
-
-
-/* Radidonsingle styles */
-.single-property-section{
-  /* display: flex; */
-width: 90%;
-margin:4rem auto;
-
+/* single page styles */
+.carousel-image {
+  object-fit: fill;
+}
+.carousel-inner {
+  height: 85vh;
 }
 
-.single-property-image{
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
+.single-page-description {
+  width: 90%;
+  margin-top: 3rem;
+  padding-left: 3rem;
 }
+
+.single-page-details > h6 {
+  font-size: 30px;
+  color: #0c1e7f;
+  margin-bottom: 1rem;
+}
+
 @media only screen and (max-width: 960px) {
   .property-details-image {
-  display: flex;
-  flex-direction: column;
-
-  
-}
-.property-button {
-  width: 9vw;
-  background-color: #ffc600;
-  height: 2rem;
-  margin-left: 40px;
-  border-radius: 3px;
-  border: none;
-  cursor: pointer;
-  color: #fff;
-}
-.property-details-image > p {
-  width:100%;
-}
+    display: flex;
+    flex-direction: column;
+  }
+  .property-button {
+    width: 9vw;
+    background-color: #ffc600;
+    height: 2rem;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+  }
+  .property-details-image > p {
+    width: 100%;
+  }
 }
