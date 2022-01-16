@@ -3,6 +3,7 @@
 /* Navbar styles */
 .body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .default-layout__inner {
@@ -82,11 +83,11 @@
   text-decoration: none;
 }
 
-.form-property {
+/* .form-property {
   width: 90%;
   margin: 4rem auto !important ;
   outline: none;
-}
+} */
 .add-property-box .input-file > label,
 .information-text > label {
   color: #0c1e7f;
@@ -189,6 +190,17 @@ textarea:focus {
   padding: 0 33px;
   font-family: "Poppins", sans-serif;
 }
+
+.submitBtn{
+  background: #0c1e7f none repeat scroll 0 0;
+   border: medium none;
+  color: #ffffff;
+  font-weight: 400;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 33px;
+  font-family: "Poppins", sans-serif;
+}
 .add-property-submit {
   margin-top: 65px;
   text-align: right;
@@ -196,6 +208,10 @@ textarea:focus {
   font-family: "Poppins", sans-serif;
 }
 
+.input:hover{
+  box-shadow: none;
+  border: none;
+}
 input[type="date"]::-webkit-calendar-picker-indicator {
   background: transparent;
   bottom: 0;
@@ -256,7 +272,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .property-form-input {
   grid-column-gap: 2rem;
-  /* display: flex; */
   width: 90%;
   margin: auto;
 }
@@ -312,6 +327,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-size: 30px;
   color: #0c1e7f;
   margin-bottom: 1rem;
+}
+
+.single-property-section{
+background-color: #f5f9fd;
+  padding-left: 3rem;
+
+}
+.single-property-condition > h6{
+font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 960px) {
