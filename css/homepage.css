@@ -216,26 +216,32 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .view-property-page {
   width: 90%;
-  margin: 9rem auto;
+  margin: 6rem auto;
 }
 
 
-
-.card{
-max-width: 1170px;
-height: 100%;
+.view-property-page > h1 {
+  padding-bottom: 40px;
+  color: #0c1e7f;
+}
+.card {
+  max-width: 1170px;
+  height: 100%;
 }
 
-.card-img-top{
+.card-img-top {
   height: 60%;
   width: 60%;
 }
-.card-body{
+.card-body {
   background-color: #0c1e7f;
   color: white;
 }
+.card-inner {
+  transition: all 0.5s ease 0s;
+}
 
-.property-input{
+.property-input {
   width: 50% !important;
   margin-top: 70px;
   /* border: 2px solid #eceff8;
@@ -248,30 +254,81 @@ height: 100%;
    text-align: center; */
 }
 
-.property-input-section{
-
+.property-input-section {
   width: 90%;
   margin: auto;
 }
-.property-list-header{
- background-image: url("../image/background.jpg");
- height: 300px;
- background-size: fill;
+.property-list-header {
+  background-image: url("../image/background.jpg");
+  height: 300px;
+  background-size: fill;
 }
 
-.property-form-input{
+.property-form-input {
   grid-column-gap: 2rem;
   /* display: flex; */
-width:90%;
-margin:auto;
+  width: 90%;
+  margin: auto;
 }
-.property-input-section > h1{
+.property-input-section > h1 {
   color: #0c1e7f;
   padding-top: 90px;
   font-size: 3rem;
 }
-.property-select{
-        width: 50% !important;
-        margin-top: 70px;
+.property-select {
+  width: 50% !important;
+  margin-top: 70px;
+}
 
+.property-details {
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+
+
+.property-details-image {
+  border-top: 1px solid #ffffff;
+  overflow: hidden;
+  padding: 18px;
+  display: flex;
+ justify-content: space-between;
+}
+
+
+.property-button {
+  width: 7vw;
+  background-color: #ffc600;
+  height: 2rem;
+  margin-left: 40px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+
+/* Radidonsingle styles */
+@media only screen and (max-width: 960px) {
+  .property-details-image {
+  display: flex;
+  flex-direction: column;
+
+  
+}
+.property-button {
+  width: 9vw;
+  background-color: #ffc600;
+  height: 2rem;
+  margin-left: 40px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+.property-details-image > p {
+  width:100%;
+}
 }
