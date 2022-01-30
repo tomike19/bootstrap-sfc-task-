@@ -122,6 +122,12 @@ select {
   color: #626262;
 }
 
+.form-select:focus{
+  outline: none;
+  box-shadow: 0px;
+  border-color: none;
+  border: none;
+}
 /* select:focus-visible {
   border: none;
   outline: none;
@@ -242,10 +248,20 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 
+.form-select:focus {
+   color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
 .form-control:focus {
-  border-color:none;
-  outline: none;
-  box-shadow: none;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da !important;
+    outline: 0;
+    box-shadow: none !important;
 }
 .property-input-section {
   width: 90%;

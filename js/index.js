@@ -1,17 +1,9 @@
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
-html
+var PropertyInput = document.getElementById('property-address');
+
+document.querySelector('form.form').addEventListener('submit', function (e) {
+
+    //prevent the normal submission of the form
+    e.preventDefault();
+
+    console.log(PropertyInput.value);    
+});
