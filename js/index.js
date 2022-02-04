@@ -2,17 +2,9 @@ const $form = document.querySelector('.add-property-form');
 $form.addEventListener('submit', (event) => {
   event.preventDefault();
   const formData = new FormData($form);
-  formData.forEach((value) => {
-    console.log( value);
+  formData.forEach((value,key) => {
+    console.log((key + ':' +  JSON.stringify( value,null,2)));
+
   });
 });
 
-
-let form = document.forms[0];
-let selectbox = form.selectbox;
-
-//console.log(selectbox);
-
-selectbox.addEventListener('change', ()=> {
-   console.log(selectbox.value);
-}, false);
